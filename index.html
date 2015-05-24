@@ -60,7 +60,7 @@
     <div class="container-fluid text-center" ng-controller="anagramCtrl">
       <form id="word-form" ng-style="formStyle" ng-submit="generateAnagrams(phrase);">
         <input placeholder="Enter phrase here" ng-model="phrase" minlength=3
-        maxlength=14></input>
+        maxlength=14 autofocus></input>
       </form>
       <span ng-show="loading"><img src="loading.gif"/></span>
       <ul class="list-unstyled">
